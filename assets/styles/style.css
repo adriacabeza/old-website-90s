@@ -1,0 +1,13 @@
+
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 100%;
+    /* font-family: "Helvetica", cursive;   */
+}
+span.runner{
+    color: orange
+}
+span.winner{
+    color: red
+}
