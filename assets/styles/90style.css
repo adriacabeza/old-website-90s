@@ -3,6 +3,9 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      padding: 0;
+      margin: 0;
+      height: 100%;
 }
 
 a:focus {
@@ -35,8 +38,10 @@ textarea {
 body {
   margin-left: 10vw;
   margin-right: 10vw;
+  padding: 0;
+  height: 100%;
   font-size: 100%;
-  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
+  font-family: "Helvetica", cursive, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffff00;
@@ -59,6 +64,7 @@ a:focus {
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
+
 
 .img-polaroid {
   padding: 4px;
@@ -87,9 +93,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 44px;
+  line-height: 85%;
 }
 
 h2 {
+  line-height: 110%;
   font-size: 36px;
 }
 
@@ -115,7 +123,7 @@ li {
 
 h1 {
   color: #ff0000;
-  margin-bottom:1em;
+  margin:0
 }
 
 h2 {
@@ -158,10 +166,13 @@ blink {
 }
 
 span.runner{
-  color: orange
+  color: orange;
+  font-weight: bold;
 }
 span.winner{
-  color: red
+  color: red;
+  font-weight: bold;
+  
 }
 
 body {
@@ -175,20 +186,14 @@ span.rainbow {
 
 div.flames{
   background: #000000 url('../img/flames.gif');
-  position:absolute;
-  height:60px;
+  bottom: 0;
+  position:fixed;
+  height:70px;
   width:100%;
   margin-left: -10vw;
   margin-bottom: 0;
 }
 
-
-.progress .bar {
-  background: #c0c0c0 url('../img/progress.gif') top left repeat-x !important;
-  border: 1px solid #fff;
-  border-top: 1px solid #808080;
-  border-left: 1px solid #808080;
-}
 
 @-webkit-keyframes blink {
   0% {
